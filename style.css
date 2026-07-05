@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    background:#f5f5f5;
+    padding:90px 0;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero span{
+    color:#0d6efd;
+}
+
+.hero h3{
+    margin:20px 0;
+    color:gray;
+}
+
+.hero p{
+    margin-bottom:30px;
+}
+
+.profile-img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid white;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+.card{
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+section{
+    scroll-margin-top:80px;
+}
+
+footer{
+    background:#212529;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
